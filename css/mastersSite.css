@@ -66,7 +66,7 @@ li {
   background-size: 100% 100%;
 }
 .carousel {
-  margin: 0px 40px 0px 40px !important;
+  margin: 0px 100px 0px 100px !important;
 }
 .slot {
   width: 1400px !important;
@@ -136,4 +136,8 @@ li {
 }
 .nav-link:hover {
   color: rgb(223, 178, 55);
+}
+.slot {
+  max-width: 1500px;
+  max-height: 600px;
 }

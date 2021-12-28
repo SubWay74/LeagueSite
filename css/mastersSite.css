@@ -1,7 +1,15 @@
 body {
   background-color: rgb(0, 0, 0);
   background-repeat: repeat;
-  background-image: url(../img/glass\ yellow.jpg);
+  background-image: url(../img/leaguebg.jpg);
+}
+.fsla {
+  width: 100%;
+  border-top: solid 10px rgb(255, 174, 0);
+  margin-top: 0px;
+  height: 50px !important;
+  opacity: 0.5;
+  /* background-image: url(../img/glass\ yellow.jpg); */
 }
 .nav {
   background-color: black;
@@ -52,39 +60,80 @@ li {
   font-style: italic;
 }
 .cin {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
-  margin: 0px 40px 0px 40px;
+  background-image: url(../img/cover1.jpg);
+  background-size: 100% 100%;
 }
-.hi {
-  margin: 0px 40px 0px 40px;
+.carousel {
+  margin: 0px 40px 0px 40px !important;
 }
-.txt {
+.slot {
+  width: 1400px !important;
+}
+.txte {
+  padding-top: 20px;
+  margin-bottom: 0px;
   height: 50px;
-  color: blanchedalmond;
+  color: rgb(212, 160, 47);
   font-family: "Games", sans-serif;
   font-size: xxx-large;
-  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.719);
+  border-bottom: solid 60px rgba(0, 0, 0, 0.719);
 }
 .cinpra {
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 40px;
-  color: white;
+  color: rgb(211, 156, 105);
+  background-color: rgba(0, 0, 0, 0.719);
+  border-bottom: solid 40px rgba(0, 0, 0, 0.719);
 }
 .row {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.card {
+/* .card {
   margin-top: 20px;
   margin-left: 5em;
-}
+} */
 .cun {
-  background-image: url(../img/lego.jpg);
+  /* background-image: url(../img/lego.jpg); */
   background-size: 100% 50%;
-  height: 1590px;
+  /* height: 1590px; */
 }
 /* .footer {
   margin-top: 30px;
 } */
+
+.counta {
+  width: 100%;
+
+  max-height: 500px;
+}
+.card {
+  max-width: 30em;
+  margin-left: 7em;
+  margin-bottom: 2em;
+  background-image: url(../img/mas1.jpg);
+  background-size: 102% 135%;
+  color: aliceblue;
+  font-weight: 700;
+}
+.card-title,
+.card-text {
+  background-color: rgba(0, 0, 0, 0.623);
+  padding-left: 5px;
+  border-bottom: black 5px solid;
+}
+.card-text {
+  border-bottom: 0px;
+}
+.btn-warning {
+  font-weight: 800;
+}
+.nav-link:hover {
+  color: rgb(223, 178, 55);
+}
